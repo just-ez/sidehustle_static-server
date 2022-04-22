@@ -1,0 +1,92 @@
+{
+    "Hostname": "DESKTOP-VK8VLCI",
+    "platform": "win32",
+    "architecture": "x64",
+    "numberofcpus": [
+        {
+            "model": "Intel(R) Pentium(R) CPU  N3710  @ 1.60GHz",
+            "speed": 1600,
+            "times": {
+                "user": 609250,
+                "nice": 0,
+                "sys": 416390,
+                "idle": 1679187,
+                "irq": 36656
+            }
+        },
+        {
+            "model": "Intel(R) Pentium(R) CPU  N3710  @ 1.60GHz",
+            "speed": 1600,
+            "times": {
+                "user": 655703,
+                "nice": 0,
+                "sys": 380296,
+                "idle": 1668281,
+                "irq": 8671
+            }
+        },
+        {
+            "model": "Intel(R) Pentium(R) CPU  N3710  @ 1.60GHz",
+            "speed": 1600,
+            "times": {
+                "user": 680640,
+                "nice": 0,
+                "sys": 359406,
+                "idle": 1664234,
+                "irq": 7937
+            }
+        },
+        {
+            "model": "Intel(R) Pentium(R) CPU  N3710  @ 1.60GHz",
+            "speed": 1600,
+            "times": {
+                "user": 727375,
+                "nice": 0,
+                "sys": 382859,
+                "idle": 1594046,
+                "irq": 7125
+            }
+        }
+    ],
+    "NetworkInterface": {
+        "WiFi": [
+            {
+                "address": "fe80::304c:d80a:87af:68e7",
+                "netmask": "ffff:ffff:ffff:ffff::",
+                "family": "IPv6",
+                "mac": "84:ef:18:e5:da:35",
+                "internal": false,
+                "cidr": "fe80::304c:d80a:87af:68e7/64",
+                "scopeid": 17
+            },
+            {
+                "address": "192.168.0.120",
+                "netmask": "255.255.255.0",
+                "family": "IPv4",
+                "mac": "84:ef:18:e5:da:35",
+                "internal": false,
+                "cidr": "192.168.0.120/24"
+            }
+        ],
+        "Loopback Pseudo-Interface 1": [
+            {
+                "address": "::1",
+                "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+                "family": "IPv6",
+                "mac": "00:00:00:00:00:00",
+                "internal": true,
+                "cidr": "::1/128",
+                "scopeid": 0
+            },
+            {
+                "address": "127.0.0.1",
+                "netmask": "255.0.0.0",
+                "family": "IPv4",
+                "mac": "00:00:00:00:00:00",
+                "internal": true,
+                "cidr": "127.0.0.1/8"
+            }
+        ]
+    },
+    "uptime": 2704
+}
